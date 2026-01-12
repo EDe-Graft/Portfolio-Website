@@ -10,8 +10,8 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 h-screen w-64 p-12 flex flex-col justify-between border-r border-slate-800 z-50 bg-slate-950 hidden lg:flex">
       <div className="space-y-12">
         <Link to="/" className="block">
-          <h2 className="text-2xl font-semibold text-white">Edward De-Graft Quansah</h2>
-          <p className="text-sm text-slate-400 mt-2">Computer Science Student</p>
+          <h2 className="text-3xl font-semibold text-white"> Edward De-Graft Quansah</h2>
+          <p className="text-sm text-slate-400 mt-2">Software & AI Engineer</p>
         </Link>
 
         <div className="space-y-6">
