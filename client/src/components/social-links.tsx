@@ -4,7 +4,7 @@ const socialLinks = [
   { icon: Github, href: "https://github.com/ede-graft", label: "GitHub" },
   { icon: Linkedin, href: "https://linkedin.com/in/de-graft", label: "LinkedIn" },
   { icon: Mail, href: "mailto:edgquansah@gmail.com", label: "Email" },
-  { icon: Globe, href: "https://portfolio-website-chi-lilac-24.vercel.app", label: "Website" },
+  { icon: Globe, href: "https://edgquansah.com", label: "Website" },
 ]
 
 export function SocialLinks() {

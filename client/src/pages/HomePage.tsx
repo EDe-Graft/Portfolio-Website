@@ -1,6 +1,6 @@
 import { Navigation, MobileNavigation } from "../components/navigation"
 import { ExternalLink } from "lucide-react"
-import profileImage from "../assets/profile-image.png"
+import profileImage from "../assets/profile-image-2.png"
 
 export function HomePage() {
   return (
@@ -13,7 +13,7 @@ export function HomePage() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl font-semibold text-white">Edward De-Graft Quansah</h1>
-              <p className="text-xl text-slate-400">Computer Science Student || Software Engineer || Artificial Intelligence</p>
+              <p className="text-xl text-slate-400">Computer Science Student | Software Engineer | AI/ML Engineer</p>
 
               <div className="w-full max-w-sm h-72 bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
                 <img
@@ -96,7 +96,7 @@ export function HomePage() {
                 </a>
                 , a campus resource-sharing platform, and designed a comprehensive end-to-end {" "}
                 <a
-                  href="https://sharesphere.app"
+                  href="https://docs.google.com/document/d/1FBtb8BlCqD27APAUatbXh-b9tFyjCAezAJKCJ1umitY/edit?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:text-cyan-300 inline-flex items-center gap-1"
