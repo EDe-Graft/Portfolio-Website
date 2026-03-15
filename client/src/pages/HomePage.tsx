@@ -60,8 +60,8 @@ export function HomePage() {
                   Qurius AI 
                   <ExternalLink className="w-3 h-3" />
                 </a>,  
-                to conducting research on{" "}
-                <span className="text-white">AI governance and algorithmic fairness</span> at the {" "}
+                to building AI-powered{" "}
+                <span className="text-white">NJ Fair, an interview summarization tool</span> at the {" "}
                 <a
                   href="https://www.njoag.gov/attorney-general-platkin-and-division-on-civil-rights-announce-new-guidance-on-algorithmic-discrimination-creation-of-civil-rights-innovation-lab/"
                   target="_blank"
