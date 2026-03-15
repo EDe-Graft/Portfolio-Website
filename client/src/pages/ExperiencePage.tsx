@@ -1,5 +1,4 @@
 import { Navigation, MobileNavigation } from "../components/navigation"
-import { SocialLinks } from "../components/social-links"
 import { ArrowUpRight } from "lucide-react"
 
 interface ExperienceItemProps {
@@ -69,10 +68,10 @@ export default function ExperiencePage() {
       title: "Computer Science & AI Intern",
       company: "New Jersey Division on Civil Rights",
       description: [
-        "Conduct research on AI governance, risk management, and workforce adoption, supporting responsible AI use in a state civil rights agency.",
-        "Assist in evaluating algorithmic bias, fairness, and explainability for AI systems used in public-sector decision-making.",
-        "Apply data analysis and machine learning concepts to evaluate risks and fairness tradeoffs in AI-assisted systems.",
-        "Contribute to AI-driven tools and public education materials that inform New Jersey residents about their rights related to AI systems.",
+        "Developed NJ Fair, an AI-powered interview summarization tool built with Next.js, Flask, PostgreSQL, and OpenAI, deployed on Azure to help investigators extract structured insights from civil rights case interviews.",
+        "Engineered algorithmic bias detection pipelines using Python and scikit-learn to evaluate fairness and explainability in public-sector AI decision systems.",
+        "Applied NLP and machine learning techniques to assess risk and fairness tradeoffs in AI-assisted civil rights enforcement tools.",
+        "Contributed to AI governance research and public-facing educational materials informing New Jersey residents of their rights under AI-driven systems.",
       ],
       technologies: ["Python", "AI/ML", "Data Analysis", "Governance"],
     },
@@ -104,10 +103,9 @@ export default function ExperiencePage() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <Navigation />
-      <SocialLinks />
       <MobileNavigation />
 
-      <main className="container mx-auto px-6 md:px-12 lg:px-24 py-20 md:py-32">
+      <main className="lg:ml-64 container mx-auto px-6 md:px-12 lg:px-24 py-20 md:py-32">
         <div className="w-full max-w-4xl space-y-16 animate-fade-in-up">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-6xl font-semibold text-white">Experience</h1>

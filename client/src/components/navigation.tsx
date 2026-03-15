@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Handshake } from "lucide-react"
 
 export function Navigation() {
   const location = useLocation()
@@ -69,6 +69,14 @@ export function Navigation() {
         </a>
         <a href="mailto:edgquansah@gmail.com" className="text-slate-400 hover:text-white transition-colors">
           <Mail className="w-5 h-5" />
+        </a>
+        <a
+          href="https://app.joinhandshake.com/profiles/de-graft"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-slate-400 hover:text-white transition-colors"
+        >
+          <Handshake className="w-5 h-5" />
         </a>
       </div>
     </nav>

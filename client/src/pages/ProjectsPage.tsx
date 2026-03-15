@@ -1,5 +1,4 @@
 import { Navigation, MobileNavigation } from "../components/navigation"
-import { SocialLinks } from "../components/social-links"
 import { ArrowUpRight } from "lucide-react"
 
 interface ProjectCardProps {
@@ -106,10 +105,9 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <Navigation />
-      <SocialLinks />
       <MobileNavigation />
 
-      <main className="container mx-auto px-6 md:px-12 lg:px-24 py-20 md:py-32">
+      <main className="lg:ml-64 container mx-auto px-6 md:px-12 lg:px-24 py-20 md:py-32">
         <div className="w-full max-w-5xl space-y-16 animate-fade-in-up">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-6xl font-semibold text-white">Projects</h1>
