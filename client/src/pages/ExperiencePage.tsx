@@ -64,16 +64,16 @@ function ExperienceItem({ period, title, company, link, description, technologie
 export default function ExperiencePage() {
   const experiences: ExperienceItemProps[] = [
     {
-      period: "Jan 2026 – Mar 2026",
+      period: "Jan 2026 – Apr 2026",
       title: "Computer Science & AI Intern",
-      company: "New Jersey Division on Civil Rights",
+      company: "New Jersey Department of Law and Public Safety, Division on Civil Rights, Innovation Lab",
       description: [
         "Developed NJ Fair, an AI-powered interview summarization tool built with Next.js, Flask, PostgreSQL, and OpenAI, deployed on Azure to help investigators extract structured insights from civil rights case interviews.",
-        "Engineered algorithmic bias detection pipelines using Python and scikit-learn to evaluate fairness and explainability in public-sector AI decision systems.",
-        "Applied NLP and machine learning techniques to assess risk and fairness tradeoffs in AI-assisted civil rights enforcement tools.",
-        "Contributed to AI governance research and public-facing educational materials informing New Jersey residents of their rights under AI-driven systems.",
+        "Diagnosed and resolved core accuracy issues—including truncated transcripts, entity errors, and ASR weaknesses—through deterministic chunking, validation safeguards, and targeted prompt engineering.",
+        "Led evaluation and adversarial testing efforts, synthesizing investigator feedback to strengthen trustworthiness, reduce hallucination risk, and improve the fairness and reliability of AI-assisted case review.",
+        "Contributed to AI governance research and public-facing educational materials to train staff on AI-driven systems.",
       ],
-      technologies: ["Python", "AI/ML", "Data Analysis", "Governance"],
+      technologies: ["Python", "Next.js", "Flask", "PostgreSQL", "OpenAI", "Azure", "AI/ML", "Data Analysis", "Governance"],
     },
     {
       period: "April 2025 – Dec 2025",
