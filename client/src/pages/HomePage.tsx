@@ -43,8 +43,8 @@ export function HomePage() {
                   William Paterson University
                   <ExternalLink className="w-3 h-3" />
                 </a>, with a GPA of 3.98,
-                graduating in May 2026. I specialize in full-stack development, AI/ML, and building scalable
-                cloud-native applications.
+                graduating in May 2026. I received the <span className="text-cyan-400">Omicron Omega Award for Excellence in Computer Science</span> (2026). I
+                specialize in full-stack development, AI/ML, and building scalable cloud-native applications.
               </p>
 
               <p>

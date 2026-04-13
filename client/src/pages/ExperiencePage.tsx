@@ -76,6 +76,15 @@ export default function ExperiencePage() {
       technologies: ["Python", "Next.js", "Flask", "PostgreSQL", "OpenAI", "Azure", "AI/ML", "Data Analysis", "Governance"],
     },
     {
+      period: "2026",
+      title: "Omicron Omega Award for Excellence in Computer Science",
+      company: "William Paterson University",
+      link: "https://wpunj.edu",
+      description: [
+        "University award recognizing outstanding achievement in computer science at William Paterson University.",
+      ],
+    },
+    {
       period: "April 2025 – Dec 2025",
       title: "Founder & Developer",
       company: "Qurius AI",
